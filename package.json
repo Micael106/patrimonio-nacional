@@ -1,0 +1,16 @@
+{
+  "description": "Gerar automaticamente tags para iventário da Nacional Serviços Integrados",
+  "author": {
+    "email": "micael@nacionalserv.com",
+    "name": "Micael Lopes"
+  },
+  "scripts": {"start": "npx tsc src/index.ts"},
+  "devDependencies": {
+    "@types/qrcode": "^1.4.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.16.0",
+    "qrcode": "^1.4.4"
+  }
+}
